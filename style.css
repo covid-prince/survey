@@ -116,10 +116,14 @@ body{
 
 /* Media Query */
 @media only screen and (max-width: 600px) {
-    
+   
     .image-conatiner {
         margin: 0rem auto;
         text-align: center;
+    }
+
+    .image-conatiner img {
+        height: 150px;
     }
 
     .text {
@@ -128,7 +132,7 @@ body{
     }
 
     .text p {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         line-height: 1.85rem;
         text-align: center;
     }
@@ -150,6 +154,16 @@ body{
 
     .sv-footer{
         width: 100%;
+    }
+
+    .start {
+        height: 10vh;
+        bottom: 0;
+        position: fixed;
+    }
+
+    .sv-completedpage {
+        margin: 10% 2.5% !important;
     }
 
 }
